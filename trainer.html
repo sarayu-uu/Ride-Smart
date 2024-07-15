@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ride-Smart</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="trainer.css">
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="site-name">Ride-Smart</div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="courses.html">All Courses</a>
+            <a href="contact.html">Contact</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle" id="dropdown-toggle">More</a>
+                <div class="dropdown-menu" id="dropdown-menu">
+                    <a href="trainer.html">Become a Trainer</a>
+                </div>
+            </div>
+        </nav>
+        <button class="get-started">Log In</button>
+    </header>
+
+    
+    <section class="trainer-section">
+        <div class="overlay">
+            <h2>Train the Next Generation</h2>
+            <p>Train the next generation by sharing your expertise and inspiring future leaders in their fields. Join us in making a lasting impact!</p>
+        </div>
+    </section>
+    
+    <section class="heading-section">
+        <h2 class="section-heading">Why Train the Next Generation?</h2>
+    </section>
+
+    <section class="features-section">
+        <div class="features-container">
+            <div class="feature-box box1">
+                <i class="fas fa-book-open"></i>
+                <h3>Comprehensive Curriculum</h3>
+                <p>A well-rounded education that prepares students for real-world challenges.</p>
+            </div>
+            <div class="feature-box box2">
+                <i class="fas fa-hands-helping"></i>
+                <h3>Hands-On Experience</h3>
+                <p>Real-world applications of knowledge through practical exercises and projects.</p>
+            </div>
+            <div class="feature-box box3">
+                <i class="fas fa-money-bill-wave"></i> <!-- Updated icon -->
+                <h3>Earn While You Educate</h3>
+                <p>Enjoy competitive compensation while sharing your expertise and helping others succeed.</p>
+            </div>
+            <div class="feature-box box4">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovative Teaching Methods</h3>
+                <p>Engaging and dynamic learning approaches to keep students interested.</p>
+            </div>
+            <div class="feature-box box5">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Career Readiness</h3>
+                <p><br>Preparing students for the job market with essential skills training.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="trainer-form-section">
+        <h2>Become a Trainer</h2>
+        <form class="trainer-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="experience">Teaching Experience (Years)</label>
+                <input type="number" id="experience" name="experience" required>
+            </div>
+            <div class="form-group">
+                <label for="expertise">Area of Expertise</label>
+                <input type="text" id="expertise" name="expertise" required>
+            </div>
+            <div class="form-group">
+                <label for="why">Why Do You Want to Be a Trainer?</label>
+                <textarea id="why" name="why" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Apply Now</button>
+        </form>
+    </section>
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    <footer class="footer background-section3">
+        <div class="footer-left">
+            <h3>Ride-Smart</h3>
+            <p>Empower Your Career with Cutting-Edge AI Skills</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-center">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-right">
+            <h2>Address</h2>
+            <p>
+                CORPORATE OFFICE<br>
+                100 Consilium Place<br>
+                Suite 200 Scarborough,<br> 
+                ON M1H 3E3
+            </p>
+            <p class="phone">+1 647 476 4449</p>
+            <p class="email">info@sarascanada.com</p>
+            
+        </div>
+        
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+//more button
+document.addEventListener('DOMContentLoaded', function() {
+    var dropdownToggle = document.getElementById('dropdown-toggle');
+    var dropdownMenu = document.getElementById('dropdown-menu');
+
+    dropdownToggle.addEventListener('click', function() {
+        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+    });
+});
+//
+
+    </script>
+        
+</body>
+
+
+</html>

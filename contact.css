@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-section7 {
+    position: relative;
+    background-image: url('20.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ffffff;
+    text-align: left;
+    height: 600px; /* Adjust height as needed */
+}
+
+.overlay-content {
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+    max-width: 400px; /* Adjust width as needed */
+}
+
+.overlay-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #1B498F;
+    font-family: sans-serif;
+
+}
+
+.overlay-content p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+/*send us a message section*/
+
+
+
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Reduced top margin */
+    margin-left: 20px;
+    margin-bottom: 50px;
+    height: 350px; /* Set height to adjust section */
+    background-image: url('21.png'); /* Background image */
+    background-size: cover; /* Ensure background covers the section */
+    background-position: center; /* Center the background image */
+}
+
+.contact-info {
+    width: 75%; /* Covers 75% of the .contact-section */
+    padding: 15px; /* Reduced padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    color: #1B498F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem; /* Reduced font size */
+}
+
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px; /* Reduced margin */
+    gap: 10px; /* Reduced gap between boxes */
+}
+
+.contact-box {
+    position: relative;
+    width: 100%; /* Ensures boxes fill the parent container */
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: calc(100% - 20px);
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 0.9rem; /* Slightly reduced font size */
+}
+
+.contact-box textarea {
+    resize: vertical;
+}
+
+.contact-box input::placeholder,
+.contact-box textarea::placeholder {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #375107;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.contact-box input:focus::placeholder,
+.contact-box textarea:focus::placeholder,
+.contact-box input:not(:placeholder-shown)::placeholder,
+.contact-box textarea:not(:placeholder-shown)::placeholder {
+    font-size: 0.8rem;
+    top: 0;
+    transform: translateY(0);
+    color: #1B498F;
+}
+
+.submit-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+    margin-top: 10px; /* Adjust spacing */
+}
+
+.submit-button button {
+    padding: 8px 15px; /* Reduced padding */
+    background-color: #2E59A7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem; /* Reduced font size */
+    transition: background-color 0.3s ease;
+}
+
+.submit-button button:hover {
+    background-color: #1B498F;
+}
+
+/* Adjust two boxes in a row */
+.two-in-row {
+    width: calc(50% - 5px); /* Adjusted width */
+    display: inline-block;
+}
+
+.additional-info {
+    width: 25%;
+    padding: 15px; /* Reduced padding */
+    background-color: #1b498f00;    
+    border-radius: 10px;
+    border: 2px dotted #1B498F;
+    margin-right: 10px; /* Added margin on the right */
+}
+
+.additional-info h2 {
+    margin-top: 0;
+    font-size: 32px; /* Reduced font size */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #261f0f; /* Set text color */
+}
+
+.additional-info p {
+    font-size: 20px; /* Reduced font size */
+    line-height: 1.5; /* Adjusted line height */
+    margin-top: 10px; /* Reduced margin */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000; /* Set text color */
+}
+
+/*courses*/
+
+
+
+

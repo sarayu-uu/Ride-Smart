@@ -1,0 +1,192 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.trainer-section {
+    position: relative;
+    background-image: url('22.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ffffff;
+    text-align: left;
+
+    height: 600px; /* Adjust height as needed */
+}
+
+.overlay {
+    position: absolute;
+    padding: 20px;
+    left: 5%;
+    margin-top: 20px;
+
+    max-width: 400px; /* Adjust width as needed */
+}
+
+.overlay h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color: #1B498F;
+    font-family: sans-serif;
+
+}
+
+.overlay p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+/*heading*/
+.heading-section {
+    padding: 10px 0; /* Add padding to the section */
+    background-color: #ffffff; /* Background color */
+    text-align: center; /* Center text */
+}
+
+.section-heading {
+    font-size: 36px; /* Adjust size as needed */
+    margin: 20px 0; /* Space above and below */
+    color: #333; /* Text color */
+    font-weight: bold; /* Bold text */
+    font-family: sans-serif;
+}
+
+/*why become a trainer*/
+
+.features-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    padding: 0;
+    gap: 0; /* No gap between boxes */
+}
+
+.feature-box {
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+    position: relative;
+    color: #fff; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.feature-box:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    z-index: 10; /* Bring to front */
+}
+
+.box1 {
+    background-color: #6E89BB; /* Base Color */
+}
+
+.box2 {
+    background-color: #7A9BC2; /* Different shade */
+}
+
+.box3 {
+    background-color: #B0C6E0; /* Different shade */
+
+}
+
+.box4 {
+    background-color: #4B6E9E; /* Different shade */
+
+}
+
+.box5 {
+    background-color: #8DA1CB; /* Different shade */
+
+}
+
+.feature-box i {
+    font-size: 2em;
+    color: #1B498F; /* Icon color */
+    margin-bottom: 10px;
+}
+
+.feature-box h3 {
+    margin: 10px 0;
+    color: #000000;
+    
+    font-size: 22px; /* Adjusted heading size */
+    text-align: left; /* Left-align heading */
+}
+
+.feature-box p {
+    font-size: 16px;
+    color: #000000; /* Text color */
+    text-align: left; /* Left-align text */
+    margin: 0; /* Remove default margin */
+}
+
+
+.trainer-form-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6E89BB;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #4B6E9E;
+    box-shadow: 0 0 5px rgba(75, 110, 158, 0.5);
+    outline: none;
+}
+
+.submit-button {
+    padding: 12px 20px;
+    background-color: #6E89BB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #4B6E9E;
+    transform: translateY(-2px);
+}

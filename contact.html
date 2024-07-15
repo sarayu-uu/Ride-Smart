@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ride-Smart</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="site-name">Ride-Smart</div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="courses.html">All Courses</a>
+            <a href="contact.html">Contact</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle" id="dropdown-toggle">More</a>
+                <div class="dropdown-menu" id="dropdown-menu">
+                    <a href="trainer.html">Become a Trainer</a>
+                </div>
+            </div>
+        </nav>
+        <button class="get-started">Log In</button>
+    </header>
+
+    
+    <section class="background-section7">
+        <div class="overlay-content">
+            <h2>Contact Our Team Now</h2>
+            <p>We're here to assist you with any inquiries or support you need. Reach out to us, and we'll get back to you as soon as possible.</p>
+        </div>
+    </section>
+    
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Give Us Your Information</h2>
+            <div class="contact-details">
+                <div class="contact-box two-in-row">
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                </div>
+                <div class="contact-box two-in-row">
+                    <input type="tel" id="number" name="number" required placeholder="Number">
+                </div>
+                <div class="contact-box">
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </div>
+                <div class="contact-box">
+                    <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="additional-info">
+            <h2>Send Us A Message</h2>
+            <p>Whether you have questions, feedback, or specific inquiries, our dedicated team is here to help. We value your thoughts and strive to provide the best possible support.</p>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    <footer class="footer background-section3">
+        <div class="footer-left">
+            <h3>Ride-Smart</h3>
+            <p>Empower Your Career with Cutting-Edge AI Skills</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-center">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-right">
+            <h2>Address</h2>
+            <p>
+                CORPORATE OFFICE<br>
+                100 Consilium Place<br>
+                Suite 200 Scarborough,<br> 
+                ON M1H 3E3
+            </p>
+            <p class="phone">+1 647 476 4449</p>
+            <p class="email">info@sarascanada.com</p>
+            
+        </div>
+        
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+//more button
+document.addEventListener('DOMContentLoaded', function() {
+    var dropdownToggle = document.getElementById('dropdown-toggle');
+    var dropdownMenu = document.getElementById('dropdown-menu');
+
+    dropdownToggle.addEventListener('click', function() {
+        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+    });
+});
+//
+
+    </script>
+        
+</body>
+
+
+</html>

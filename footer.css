@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer Container */
+.footer {
+    background-image: url('13.png'); /* Replace with your background image URL */
+    background-size: cover;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px 0;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Site Name Section */
+.footer-left {
+    flex: 1;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 40px; /* Margin for site name section */
+}
+
+.footer-left h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.footer-left p {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+/* Social Icons Section */
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px; /* Margin for social icons */
+    text-align: left;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+    color: #00fbfb;
+}
+
+/* Navigation Links Section */
+.footer-center {
+    flex: 1;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align text to the left within the container */
+}
+
+.footer-nav ul li {
+    display: block; /* Display links in a block to make them appear in a column */
+    margin-bottom: 10px; /* Adjust spacing between links */
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.footer-nav ul li a:hover {
+    color: #00fbfb;
+}
+
+
+/* Location Section */
+/* Location Section */
+.footer-right {
+    flex: 1;
+    text-align: right;
+    margin-right: 40px; /* Margin for location section */
+    font-family: sans-serif;
+    margin-top: 160px;
+}
+
+/* Address Heading */
+.footer-right h2 {
+    font-size: 20px; /* Heading font size */
+    color: #ffffff; /* Heading color */
+    margin-bottom: 5px; /* Reduce bottom margin */
+}
+
+/* Address Paragraph */
+.footer-right p {
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.2; /* Reduce line height for paragraph */
+    color: #ffffff; /* Paragraph color */
+    margin-bottom: 5px; /* Reduce bottom margin */
+}
+
+/* Phone Number */
+.footer-right .phone {
+    font-weight: bold; /* Bold font for phone number */
+    color: #ffffff; /* Phone number color */
+    line-height: 1.2; /* Reduce line height */
+    margin-bottom: 5px; /* Reduce bottom margin */
+}
+
+/* Email */
+.footer-right .email {
+    font-style: italic; /* Italic style for email */
+    color: #ffffff; /* Email color */
+    line-height: 1.2; /* Reduce line height */
+    margin-bottom: 5px; /* Reduce bottom margin */
+}
+
+

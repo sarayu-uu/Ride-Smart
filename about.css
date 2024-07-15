@@ -1,0 +1,442 @@
+/* Reset and base styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.background-image-section5 {
+    position: relative;
+    height: 600px; /* Adjust height as needed */
+    background-image: url('16.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start; /* Adjust alignment as needed */
+    align-items: center;
+    color: #ffffff; /* Text color */
+    text-align: left; /* Align text to the left */
+}
+
+.text-overlay {
+    position: absolute;
+    left: 20px; /* Adjust as needed */
+    padding: 20px;
+    max-width: 400px; /* Adjust as needed */
+}
+
+.text-overlay h2 {
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    color: #1B498F;
+}
+
+.text-overlay p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+
+/*commitment*/
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.left-container {
+    flex: 0 0 35%;
+    padding-right: 20px;
+    border-right: 2px solid #ccc;
+    margin-top: 50px;
+}
+
+.right-container {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-line {
+    border-left: 2px solid #ccc;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.left-content {
+    text-align: left;
+}
+
+.left-content h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.left-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.right-content {
+    padding-left: 0;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    animation: fadeInUp 0.5s ease-out both;
+}
+
+.feature .icon {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+    margin-right: 15px;
+}
+    .feature .icon-1{
+        width: 80px;
+        height: 60px;
+        background-color: #FFB74D;
+    }
+    
+    .feature .icon-2{
+        width: 70px;
+        height: 60px;
+        background-color: #4FC3F7;
+    }
+    
+    .feature .icon-3 {
+        width: 70px;
+        height: 60px;
+        background-color: #9575CD;
+    }
+    
+    .feature .icon-4 {
+        width: 60px;
+        height: 60px;
+        background-color: #FF8A65;
+    }
+    
+    .feature .icon-5 {
+        width: 70px;
+        height: 60px;
+        background-color: #81C784;
+    }
+    
+    .feature .icon-6 {
+        width: 60px;
+        height: 60px;
+        background-color: #FFD54F;
+    }
+
+
+.feature .icon i {
+    transition: transform 0.3s ease;
+}
+
+.feature-text {
+    font-size: 16px;
+    color: #000000;
+    font-family: sans-serif;
+
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.feature:hover .icon {
+    transform: scale(1.2);
+}
+
+
+/*our vision*/
+
+.our-vision {
+    width: 100%;
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #ffffff; /* Background color for the section */
+}
+
+.vision-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row; /* Ensure content is arranged in a row */
+}
+
+.vision-content {
+    width: 50%;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #333;
+    text-align: right; /* Align text to the right */
+}
+
+.vision-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.vision-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.vision-image {
+    width: 50%;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.vision-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container appropriately */
+}
+
+
+/*why choose us*/
+.heading-section {
+    width: 100%;
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #fffefe; /* Background color for the section */
+    text-align: center; /* Center the heading */
+}
+
+.heading-section h2 {
+    font-size: 36px; /* Size of the heading text */
+    color: #000000; /* Color of the heading text */
+    margin: 0; /* Remove default margin */
+    font-family: sans-serif;
+}
+
+/* Section Background */
+.why-choose-us {
+    width: 100%;
+    padding-bottom: 140px; /* Adjust padding as needed */
+    background-image: url('18.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Text color */
+    text-align: center;
+}
+
+.why-choose-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjusts spacing between boxes */
+}
+
+/* Box Styles */
+.box {
+    width: 22%; /* Adjust width as needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent background for readability */
+    padding: 20px;
+    border-radius: 5px;
+    height: 250px;
+    margin: 10px 0; /* Vertical margin for spacing */
+    transition: transform 0.3s ease, color 0.3s ease; /* Added transition for color change */
+    box-sizing: border-box;
+    color: #000000; /* Set text color to black */
+    display: flex;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Adds a more pronounced shadow effect on hover */
+
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align items to the start */
+    text-align: left; /* Align text to the left */
+}
+
+/* Icon and Heading */
+.box .icon-container {
+    display: flex;
+    align-items: center; /* Vertically center icon and heading */
+    margin-bottom: 10px; /* Space below the icon-heading section */
+}
+
+.box i.icon {
+    font-size: 24px; /* Adjust icon size */
+    color: #000000; /* Ensure icon color is black */
+    margin-right: 10px; /* Space between icon and heading */
+}
+
+.box h3 {
+    font-size: 20px; /* Consistent heading size */
+    margin: 0;
+    color: #000000; /* Ensure heading color is black */
+    font-weight: bold; /* Ensure heading is bold */
+    font-family: sans-serif;
+}
+
+/* Divider */
+.box-divider {
+    border: 1px solid #000000; /* Black border for visibility */
+    width: 100%; /* Full width of the box */
+    margin: 10px 0; /* Vertical margin */
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: sans-serif;
+
+}
+
+/* Hover Effect */
+.box:hover {
+    transform: scale(1.05); /* Enlarge the box on hover */
+}
+
+.box:hover .icon-container i.icon,
+.box:hover .icon-container h3 {
+    color: #2E59A7; /* Change icon and heading color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .box {
+        width: 48%; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 100%; /* Full width for very small screens */
+    }
+}
+
+
+/*values heading*/
+.centered-heading {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 50px; /* Adjust the height as needed */
+    background-color: #ffffff; /* Background color */
+}
+
+.centered-heading h2 {
+    font-size: 36px; /* Font size for the heading */
+    color: #000000; /* Text color */
+    text-align: center; /* Centers the text */
+    margin: 0; /* Remove default margin */
+    font-family: sans-serif;
+}
+
+/*VALUES*/
+.what-we-value {
+    padding: 00px 0;
+    background-color: #ffffff; /* White background for the section */
+}
+
+
+
+.row.no-gutters {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.content-item {
+    position: relative;
+    padding: 30px;
+    background-color: #ffffff; /* White background for each item */
+    width: calc(50% - 1px); /* Adjust width and account for border */
+    box-sizing: border-box;
+    border-bottom: 1px solid #6E89BB; /* Horizontal border */
+    border-right: 1px solid #6E89BB; /* Vertical border */
+}
+
+.content-item:nth-child(2),
+.content-item:nth-child(4) {
+    border-right: none; /* Remove right border for even items */
+}
+
+.content-item:nth-child(3),
+.content-item:nth-child(4) {
+    border-bottom: none; /* Remove bottom border for the last row */
+}
+
+.content-item span {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2E59A7; /* Icon color */
+}
+
+.content-item h4 {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #000000; /* Heading color */
+    margin-top: 40px; /* Space to accommodate the number */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.content-item p {
+    font-size: 16px;
+    color: #000000; /* Text color */
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-item {
+        width: 100%; /* Full width for smaller screens */
+        margin-bottom: 20px; /* Space between items */
+        border-right: none; /* Remove right border for responsive design */
+    }
+    
+    .content-item:nth-child(3),
+    .content-item:nth-child(4) {
+        border-bottom: 1px solid #000000; /* Re-add bottom border for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
